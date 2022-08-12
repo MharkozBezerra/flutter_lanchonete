@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lanchonete/core/app_core.dart';
+import 'package:flutter_lanchonete/core/app_colors.dart';
 import 'package:flutter_lanchonete/pages/Home/home_page.dart';
 import 'package:flutter_lanchonete/pages/Login/login_page.dart';
 
