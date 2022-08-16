@@ -55,7 +55,8 @@ class ComandaWidget extends StatelessWidget {
           //Navigator.pushNamed(context, '/comanda', arguments: index);
           Navigator.of(context).pushNamed('/categorias', arguments: index);
         } else {
-          print('Navegando para tela de consumo');
+          Navigator.of(context)
+              .pushNamed('/produto_consumidos', arguments: index);
         }
       },
       child: Container(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lanchonete/core/app_colors.dart';
 import 'package:flutter_lanchonete/pages/Categorias/categorias_page.dart';
+import 'package:flutter_lanchonete/pages/Consumo/consumo_page.dart';
 import 'package:flutter_lanchonete/pages/Home/home_page.dart';
 import 'package:flutter_lanchonete/pages/Login/login_page.dart';
 
@@ -23,6 +24,9 @@ class AppWidget extends StatelessWidget {
         '/': (context) => LoginPage(),
         '/home': (context) => HomePage(),
         '/categorias': (context) => CategoriasPage(
+              numeroMesa: ModalRoute.of(context)!.settings.arguments as int,
+            ),
+        '/produto_consumidos': (context) => ConsumoPage(
               numeroMesa: ModalRoute.of(context)!.settings.arguments as int,
             ),
       },
