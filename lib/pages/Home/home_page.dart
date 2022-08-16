@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lanchonete/core/app_core.dart';
+import 'package:flutter_lanchonete/core/app_colors.dart';
 import 'package:flutter_lanchonete/core/app_textStyles.dart';
 import 'package:flutter_lanchonete/pages/Telas/TelaConfiguracoes/tela_configuracoes.dart';
 import 'package:flutter_lanchonete/pages/Telas/TelaInicial/tela_inicial.dart';

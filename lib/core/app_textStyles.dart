@@ -17,6 +17,11 @@ class AppTextStyles {
     fontSize: 18,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle tituloCategoriaTextWhite = TextStyle(
+    color: Colors.white,
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+  );
 
   static const TextStyle textStyleWhite = TextStyle(
     color: Colors.white,
